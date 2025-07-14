@@ -1,0 +1,6 @@
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = git@github.com:henrygraesberg/nvim.git
+[submodule "Library/Application Support/lazygit"]
+	path = Library/Application Support/lazygit
+	url = git@github.com:henrygraesberg/lazygit.git

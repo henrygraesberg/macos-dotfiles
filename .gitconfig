@@ -1,0 +1,19 @@
+[user]
+	name = Henry Græsberg
+	email = 108506830+henrygraesberg@users.noreply.github.com
+	signingKey = /Users/hgrasberg/.ssh/id_ed25519.pub
+[gpg]
+	format = ssh
+[commit]
+	sshSign = true
+	gpgsign = true
+[push]
+	autoSetupRemote = true
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+[alias]
+  c = "commit -m"
+  pr = "pull --rebase"

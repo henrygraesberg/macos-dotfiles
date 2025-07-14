@@ -1,0 +1,23 @@
+theme = catppuccin-mocha.conf
+
+background-opacity = 0.7
+background-blur = 50
+
+mouse-hide-while-typing = true
+
+font-size = 11
+
+font-feature = -calt, -liga, -dlig
+
+maximize = true
+
+macos-titlebar-style = "tabs"
+
+macos-icon = "official"
+#macos-icon-frame = "aluminum"
+#macos-icon-ghost-color = #00F7FF
+#macos-icon-screen-color = #1A053D
+
+auto-update = "download"
+
+keybind = global:ctrl+cmd+w=toggle_visibility
