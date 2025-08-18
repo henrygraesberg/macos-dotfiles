@@ -24,11 +24,13 @@ export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 export EDITOR="nvim"
 export VISUAL=$EDITOR
 
-export ALIAS_PATH=~/.shell_scripts/aliases.zsh
+export ALIAS_PATH=~/.shell_scripts/aliases/aliases.zsh
 
 source $ALIAS_PATH
 
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
+
+exec fish
 
