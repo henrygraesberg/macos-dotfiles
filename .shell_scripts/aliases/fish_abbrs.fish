@@ -13,7 +13,6 @@ abbr --add ghosttyconf nvim ~/.config/ghostty/config
 abbr --add vim nvim
 abbr --add fuzz fzf --preview {}
 abbr --add readgen npx readme-md-generator
-abbr --add ripes /Users/hgrasberg/Documents/other/bin/Ripes-v2.2.6-65-g03df996-mac-universal2.app/Contents/MacOs/Ripes
 
 function get_local_ip
     set -l ip (ifconfig | grep 'inet ' | grep -v '127.0.0.1')
@@ -43,4 +42,10 @@ function open_vscode_fzf
 end
 
 abbr --add fzcode open_vscode_fzf
+
+function start_ripes_in_background
+    /Users/hgrasberg/Documents/other/bin/Ripes-v2.2.6-65-g03df996-mac-universal2.app/Contents/MacOs/Ripes &>/dev/null & disown
+end
+
+abbr --add ripes start_ripes_in_background
 
