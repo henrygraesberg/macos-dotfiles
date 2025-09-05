@@ -13,6 +13,7 @@ abbr --add ghosttyconf nvim ~/.config/ghostty/config
 abbr --add vim nvim
 abbr --add fuzz fzf --preview {}
 abbr --add readgen npx readme-md-generator
+abbr --add cls clear
 
 function get_local_ip
     set -l ip (ifconfig | grep 'inet ' | grep -v '127.0.0.1')

@@ -15,3 +15,4 @@ alias vim="nvim"
 alias fuzz='fzf --preview="{}"'
 alias ip="ifconfig | grep 'inet ' | grep -v '127.0.0.1'"
 alias readgen="npx readme-md-generator"
+alias cls="clear"

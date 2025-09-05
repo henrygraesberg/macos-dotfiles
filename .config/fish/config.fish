@@ -1,4 +1,4 @@
-set -l ABBR_PATH "../../.shell_scripts/aliases/fish_abbrs.fish"
+set -l ABBR_PATH "/Users/hgrasberg/.shell_scripts/aliases/fish_abbrs.fish"
 
 if status is-interactive
   fish_vi_key_bindings
